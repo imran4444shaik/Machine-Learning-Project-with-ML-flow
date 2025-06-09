@@ -4,12 +4,23 @@ notebook
 numpy
 scikit-learn
 matplotlib
-python-box
+#python-box
+python-box==6.0.2
 pyYAML
 tqdm
 ensure==1.0.2
 joblib
-types-PyYAML
+#types-PyYAML
+PyYAML
 Flask
 Flask-Cors
+
+# Optional / Deployment
+python-dotenv
+gunicorn
+dagshub      # if you use dagshub.init()
+
+# Local dev (Jupyter)
+#notebook
+
 -e .
