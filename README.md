@@ -24,17 +24,9 @@
 Clone the repository
 
 ```bash
-https://github.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow
-```
-### STEP 01- Create a conda environment after opening the repository
-
-```bash
-conda create -n mlproj python=3.8 -y
+https://github.com/imran4444shaik/Machine-Learning-Project-with-ML-flow
 ```
 
-```bash
-conda activate mlproj
-```
 
 
 ### STEP 02- install the requirements
@@ -125,7 +117,7 @@ with mlflow.start_run():
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.ap-south-1.amazonaws.com/mlproj
+   
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
